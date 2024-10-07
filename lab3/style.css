@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    margin: 100px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    
+}
+
+
+#img1{
+    position: relative;
+    background: #9191fb;
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+#img1 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+
+#text1{
+    position: relative;
+    background: #239ec6;
+    float: right;
+    width: 50%;
+    height: 300px;
+}
+
+#text1 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#text2 {
+    position: relative;
+    background: #ade4f6;
+    float: none;
+    height: 250px;
+    width: 100%;
+    display: block; /* Встановлення як блокового елемента */
+}
+
+#text2 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+
+}
+
+
+#img2 {
+    position: relative;
+    background: #239ec6;
+    float: none;
+    height: 250px;
+    width: 100%;
+    display: block; /* Встановлення як блокового елемента */
+}
+
+#img2 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+
