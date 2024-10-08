@@ -62,7 +62,7 @@
     float: none;
     height: 250px;
     width: 100%;
-    display: block; /* Встановлення як блокового елемента */
+    display: block; 
 }
 
 #text2 h2{
@@ -81,7 +81,7 @@
     float: none;
     height: 250px;
     width: 100%;
-    display: block; /* Встановлення як блокового елемента */
+    display: block; 
 }
 
 #img2 h2{

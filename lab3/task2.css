@@ -1,0 +1,39 @@
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    
+}
+
+#img1{
+    flex-grow:1;
+    background: #9191fb;
+    width: 50%;
+    height: 300px;
+}
+
+#text1{
+    flex-grow:1;
+    background: #239ec6;
+    width: 50%;
+    height: 300px;
+}
+
+#text2 {
+    background: #ade4f6;
+    height: 250px;
+    width: 100%;
+  
+}
+
+#img2 {
+
+    background: #239ec6;
+    height: 250px;
+    width: 100%;
+    display: block; 
+}
