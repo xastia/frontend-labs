@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-    <head>
-        <title>Дворецька А.В. ІМ-21</title>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="lab1, Dvoretska, IM-21">
-        <meta name="description" content="Лабораторна робота 1 з дисципліни Основи FE-технологій">
-    </head>
-
-    <body>
+<head>
+    <title>Дворецька А.В. ІМ-21</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="lab1, Dvoretska, IM-21">
+    <meta name="description" content="Лабораторна робота 1 з дисципліни Основи FE-технологій">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
         <div>
             <h2>Дворецька Анастасія Вадимівна</h2>
             <p><b>Місце народження:</b> 16.05.2005 м. Дніпро</p>
@@ -40,8 +39,21 @@
             <p><b>Оде́са</b> — місто в Україні. Третє за кількістю мешканців місто країни після Києва та Харкова. Розташоване на узбережжі Чорного моря. Найбільший морський торговий порт держави. Культурно-освітній, туристичний, торговий, транспортний центр. Складова Одеської міської територіальної громади. Населення — 1 010 537 осіб. Основа економіки — транспортні перевезення, машинобудівна, хімічна, нафтопереробна, харчова та легка промисловості. Працюють 37 закладів вищої освіти, шість театрів, вісім кінотеатрів, філармонія, цирк, музеї, галереї тощо.</p>
 
             <a href="https://omr.gov.ua/">
-                <img src="https://ukraine.ua/wp-content/uploads/2020/11/Theatre-in-old-town-of-Odesa-sea-port-weiv.simbiothy.depositphotos-2048x1536.jpg" width="600" alt="Одеський театр з видом на порт">
+                <img id="odessa-image" src="https://ukraine.ua/wp-content/uploads/2020/11/Theatre-in-old-town-of-Odesa-sea-port-weiv.simbiothy.depositphotos-2048x1536.jpg" width="600" alt="Одеський театр з видом на порт">
             </a>
         </div>
-    </body>
+    
+        <!-- Контейнер для нових зображень -->
+        <div id="image-container"></div>
+    
+        <!-- Кнопки для роботи з зображенням -->
+        <div>
+            <button onclick="addImage()">Додати зображення</button>
+            <button onclick="increaseSize()">Збільшити зображення</button>
+            <button onclick="decreaseSize()">Зменшити зображення</button>
+            <button onclick="removeImage()">Видалити останнє зображення</button>
+        </div>
+    
+        <script src="script.js"></script>
+</body>
 </html>

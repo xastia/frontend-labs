@@ -1,0 +1,30 @@
+
+.active1 {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.active2 {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+/* Контейнер для розміщення зображень вертикально */
+#image-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Стилі для зображень у контейнері */
+#image-container img {
+    margin: 10px 0;
+}
+
+/* Стилізація для кнопок */
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
