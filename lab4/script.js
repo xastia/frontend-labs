@@ -3,8 +3,14 @@ const n = 2;
 const targetIndex = (n % 10) + 1;
 
 
-function toggleColor(element, className) {
-    element.classList.toggle(className);
+function toggleColor(element, className1, className2) {
+    if (element.classList.contains(className1)) {
+        element.classList.remove(className1);
+        element.classList.add(className2);
+    } else {
+        element.classList.remove(className2);
+        element.classList.add(className1);
+    }
 }
 
 document.body.addEventListener("click", (event) => {
@@ -12,9 +18,9 @@ document.body.addEventListener("click", (event) => {
         const elements = document.querySelectorAll("body *");
         elements.forEach((elem, index) => {
             if (index + 1 === targetIndex) {
-                toggleColor(elem, "active1");
+                toggleColor(elem, "active1", "active2");
             } else if (index + 2 === targetIndex) {
-                toggleColor(elem, "active2");
+                toggleColor(elem, "active2", "active1");
             }
         });
     }
