@@ -10,28 +10,27 @@
 
 <body>
     <div id="container">
-            <form id="form">
-                <fieldset>
-                    <legend>Форма</legend>
-                    <label for="pib">ПІБ</label>
-                    <input id="pib">
-                    
-                    <label for="group">Група</label>
-                    <input id="group">
-                    
-                    <label for="telephone">Телефон</label>
-                    <input id="telephone">
-                    
-                    <label for="card">ID-card</label>
-                    <input id="card">
-                    
-                    <label for="faculty">Факультет</label>
-                    <input id="faculty">
-
-                  
-                </fieldset>
-                <button type="button" id="button" onclick="submitForm()">Відправити</button>
-            </form>
+        <form id="form">
+            <fieldset>
+                <legend>Форма</legend>
+                <label for="pib">ПІБ</label>
+                <input id="pib">
+                
+                <label for="group">Група</label>
+                <input id="group">
+                
+                <label for="telephone">Телефон</label>
+                <input id="telephone">
+                
+                <label for="card">ID-card</label>
+                <input id="card">
+                
+                <label for="faculty">Факультет</label>
+                <input id="faculty">
+            </fieldset>
+            <button type="button" id="button" onclick="submitForm()">Відправити</button>
+        </form>
+        
         <div id="output">
             <h3>Введені дані:</h3>
             <p id="pibOutput"></p>
@@ -42,8 +41,24 @@
         </div>
     </div>
 
+    
+    <div id="tableContainer">
+        <table id="colorTable">
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+   
+    <div id="colorPickerContainer" style="display: none;">
+        <label for="colorPicker">Виберіть колір:</label>
+        <input type="color" id="colorPicker">
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+
 
 

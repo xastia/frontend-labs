@@ -6,7 +6,7 @@
 
 form {
     display: flex;
-    flex-grow:1;
+    flex-grow: 1;
     flex-direction: column;
     gap: 10px; 
 }
@@ -34,9 +34,56 @@ button {
 }
 
 #output {
-    flex-grow:1;
+    flex-grow: 1;
     padding-left: 10px; /* Відступ між формою і виведеними даними */
 }
+
+#tableContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: lightgray;
+}
+
+#colorPickerContainer {
+    margin-top: 10px;
+}
+
+#colorTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#colorTable td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+    cursor: pointer;
+    position: relative;
+}
+
+#colorTable td:hover {
+    background-color: lightgray;
+}
+
+
+
 
 
 
