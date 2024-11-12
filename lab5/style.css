@@ -1,0 +1,42 @@
+#container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-grow:1;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+label, input {
+    display: block; 
+    width: 98%; 
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+}
+input.error {
+    border: 2px solid red;
+}
+input.valid {
+    border: 2px solid rgb(18, 244, 48);
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+    align-self: center; /* Центруємо кнопку */
+}
+
+#output {
+    flex-grow:1;
+    padding-left: 10px; /* Відступ між формою і виведеними даними */
+}
+
+
+

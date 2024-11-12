@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Дворецька А.В. ІМ-21</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="lab5, Dvoretska, IM-21">
+    <meta name="description" content="Лабораторна робота 5 з дисципліни Основи FE-технологій">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+            <form id="form">
+                <fieldset>
+                    <legend>Форма</legend>
+                    <label for="pib">ПІБ</label>
+                    <input id="pib">
+                    
+                    <label for="group">Група</label>
+                    <input id="group">
+                    
+                    <label for="telephone">Телефон</label>
+                    <input id="telephone">
+                    
+                    <label for="card">ID-card</label>
+                    <input id="card">
+                    
+                    <label for="faculty">Факультет</label>
+                    <input id="faculty">
+
+                  
+                </fieldset>
+                <button type="button" id="button" onclick="submitForm()">Відправити</button>
+            </form>
+        <div id="output">
+            <h3>Введені дані:</h3>
+            <p id="pibOutput"></p>
+            <p id="groupOutput"></p>
+            <p id="telephoneOutput"></p>
+            <p id="cardOutput"></p>
+            <p id="facultyOutput"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
