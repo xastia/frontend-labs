@@ -1,4 +1,4 @@
-/* Фон контейнера */
+
 .container {
     background-color: rgb(255, 141, 186);
     padding: 20px;
@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-/* Стиль для кнопки */
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -24,18 +24,17 @@ button:hover {
     background-color: #ff324d;
 }
 
-/* Внутрішній контейнер для карток */
+
 .inner {
     display: flex;
     flex-wrap: wrap; 
     gap: 20px;
-    justify-content: center; /* Центруємо картки */
+    justify-content: center;
     margin-top: 20px;
 }
 
-/* Стиль карток */
 .card {
-    width: 250px; /* Зменшена ширина для більш компактного вигляду */
+    width: 250px; 
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 12px;
@@ -50,7 +49,6 @@ button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Стиль тексту картки */
 .card img {
     width: 100px;
     height: 100px;
