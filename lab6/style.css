@@ -1,0 +1,74 @@
+/* Фон контейнера */
+.container {
+    background-color: rgb(255, 141, 186);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Стиль для кнопки */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5a73;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #ff324d;
+}
+
+/* Внутрішній контейнер для карток */
+.inner {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; /* Центруємо картки */
+    margin-top: 20px;
+}
+
+/* Стиль карток */
+.card {
+    width: 250px; /* Зменшена ширина для більш компактного вигляду */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Стиль тексту картки */
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card div {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.error-message {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
