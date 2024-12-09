@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h2, p {
+  cursor: pointer; /* Вказівник для клікабельності */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.active-header {
+  background-color: lightblue;
+  color: darkblue;
+}
+.active-header2 {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.controls button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #ccc;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+img.active {
+  border-color: #f00;
+  transform: scale(1.1);
+}
+
+
