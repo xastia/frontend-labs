@@ -22,6 +22,8 @@ h2, p {
 }
 
 .controls button {
+  border-radius: 8px;
+  background-color: #dfdede;
   margin-right: 10px;
   padding: 10px 15px;
   font-size: 14px;
@@ -36,8 +38,51 @@ img {
 }
 
 img.active {
-  border-color: #f00;
+  border-color: #ffa7c5;
   transform: scale(1.1);
 }
+
+.goods-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.goods-card {
+  border: 1px solid #888888;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #ffa7c5;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.goods-card:hover {
+  transform: scale(1.05);
+}
+
+.goods-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border-color: #888888;
+}
+
+.goods-name {
+  font-size: 1.2em;
+  margin: 8px 0;
+  color: #4c4c4c;
+}
+
+.goods-price {
+  font-size: 1em;
+  color: #4c4c4c;
+  font-weight: bold;
+}
+
 
 
